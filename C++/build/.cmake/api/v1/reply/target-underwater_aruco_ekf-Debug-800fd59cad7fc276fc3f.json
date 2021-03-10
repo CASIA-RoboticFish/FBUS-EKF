@@ -1,0 +1,419 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/underwater_aruco_ekf.exe"
+		},
+		{
+			"path" : "bin/underwater_aruco_ekf.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"LINK_DIRECTORIES",
+			"find_package",
+			"link_directories",
+			"target_link_libraries",
+			"include_directories",
+			"INCLUDE_DIRECTORIES"
+		],
+		"files" : 
+		[
+			"src/CMakeLists.txt",
+			"G:/C++Code/aruco-3.1.12/aruco-3.1.12/build/arucoConfig.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 30,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 26,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 22,
+				"parent" : 3
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 23,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -std=c++11 -g"
+				},
+				{
+					"fragment" : "-std=gnu++11"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"path" : "G:/C++Code/underwater-aruco-ekf/build/src"
+				},
+				{
+					"path" : "G:/C++Code/underwater-aruco-ekf/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "G:/C++Code/underwater-aruco-ekf/src/../include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Program Files (x86)/Eigen3/include/eigen3"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "D:/software/aruco/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "D:/software/aruco/include/aruco"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "G:/C++Code/yaml-cpp/build/install/include"
+				},
+				{
+					"backtrace" : 12,
+					"isSystem" : true,
+					"path" : "D:/software/opencv/build-gcc"
+				},
+				{
+					"backtrace" : 12,
+					"isSystem" : true,
+					"path" : "D:/software/opencv/sources/include"
+				},
+				{
+					"backtrace" : 12,
+					"isSystem" : true,
+					"path" : "D:/software/opencv/sources/include/opencv"
+				},
+				{
+					"backtrace" : 12,
+					"isSystem" : true,
+					"path" : "D:/software/opencv/sources/modules/core/include"
+				},
+				{
+					"backtrace" : 12,
+					"isSystem" : true,
+					"path" : "D:/software/opencv/sources/modules/flann/include"
+				},
+				{
+					"backtrace" : 12,
+					"isSystem" : true,
+					"path" : "D:/software/opencv/sources/modules/imgproc/include"
+				},
+				{
+					"backtrace" : 12,
+					"isSystem" : true,
+					"path" : "D:/software/opencv/sources/modules/ml/include"
+				},
+				{
+					"backtrace" : 12,
+					"isSystem" : true,
+					"path" : "D:/software/opencv/sources/modules/objdetect/include"
+				},
+				{
+					"backtrace" : 12,
+					"isSystem" : true,
+					"path" : "D:/software/opencv/sources/modules/photo/include"
+				},
+				{
+					"backtrace" : 12,
+					"isSystem" : true,
+					"path" : "D:/software/opencv/sources/modules/video/include"
+				},
+				{
+					"backtrace" : 12,
+					"isSystem" : true,
+					"path" : "D:/software/opencv/sources/modules/dnn/include"
+				},
+				{
+					"backtrace" : 12,
+					"isSystem" : true,
+					"path" : "D:/software/opencv/sources/modules/imgcodecs/include"
+				},
+				{
+					"backtrace" : 12,
+					"isSystem" : true,
+					"path" : "D:/software/opencv/sources/modules/shape/include"
+				},
+				{
+					"backtrace" : 12,
+					"isSystem" : true,
+					"path" : "D:/software/opencv/sources/modules/videoio/include"
+				},
+				{
+					"backtrace" : 12,
+					"isSystem" : true,
+					"path" : "D:/software/opencv/sources/modules/highgui/include"
+				},
+				{
+					"backtrace" : 12,
+					"isSystem" : true,
+					"path" : "D:/software/opencv/sources/modules/superres/include"
+				},
+				{
+					"backtrace" : 12,
+					"isSystem" : true,
+					"path" : "D:/software/opencv/sources/modules/ts/include"
+				},
+				{
+					"backtrace" : 12,
+					"isSystem" : true,
+					"path" : "D:/software/opencv/sources/modules/features2d/include"
+				},
+				{
+					"backtrace" : 12,
+					"isSystem" : true,
+					"path" : "D:/software/opencv/sources/modules/calib3d/include"
+				},
+				{
+					"backtrace" : 12,
+					"isSystem" : true,
+					"path" : "D:/software/opencv/sources/modules/stitching/include"
+				},
+				{
+					"backtrace" : 12,
+					"isSystem" : true,
+					"path" : "D:/software/opencv/sources/modules/videostab/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"id" : "underwater_aruco_ekf::@145eef247bfb46b6828c",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-std=c++11 -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-LD:\\software\\aruco\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-LG:\\C++Code\\yaml-cpp\\build\\install\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "D:\\software\\opencv\\build-gcc\\lib\\libopencv_dnn343.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "D:\\software\\opencv\\build-gcc\\lib\\libopencv_ml343.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "D:\\software\\opencv\\build-gcc\\lib\\libopencv_objdetect343.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "D:\\software\\opencv\\build-gcc\\lib\\libopencv_shape343.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "D:\\software\\opencv\\build-gcc\\lib\\libopencv_stitching343.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "D:\\software\\opencv\\build-gcc\\lib\\libopencv_superres343.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "D:\\software\\opencv\\build-gcc\\lib\\libopencv_videostab343.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-laruco3112",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-lyaml-cpp",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "D:\\software\\opencv\\build-gcc\\lib\\libopencv_calib3d343.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "D:\\software\\opencv\\build-gcc\\lib\\libopencv_features2d343.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "D:\\software\\opencv\\build-gcc\\lib\\libopencv_flann343.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "D:\\software\\opencv\\build-gcc\\lib\\libopencv_highgui343.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "D:\\software\\opencv\\build-gcc\\lib\\libopencv_photo343.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "D:\\software\\opencv\\build-gcc\\lib\\libopencv_video343.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "D:\\software\\opencv\\build-gcc\\lib\\libopencv_videoio343.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "D:\\software\\opencv\\build-gcc\\lib\\libopencv_imgcodecs343.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "D:\\software\\opencv\\build-gcc\\lib\\libopencv_imgproc343.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "D:\\software\\opencv\\build-gcc\\lib\\libopencv_core343.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "underwater_aruco_ekf",
+	"nameOnDisk" : "underwater_aruco_ekf.exe",
+	"paths" : 
+	{
+		"build" : "src",
+		"source" : "src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/filter.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

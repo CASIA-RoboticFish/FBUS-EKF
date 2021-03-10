@@ -1,0 +1,68 @@
+{
+    // 
+    "tasks": [
+        // 任务一
+        {
+            "type": "shell",
+            "label": "mk_build",
+            "command": "mkdir",
+            "args": ["build"],
+            "options": {
+                "cwd": "${workspaceFolder}",
+            },
+        },
+        {
+            "type": "shell",
+            "label": "clear_image",
+            "command": "rm",
+            "args": ["data/image/*"],
+            "options": {
+                "cwd": "${workspaceFolder}",
+            },
+        },
+        {
+            "type": "shell",
+            "label": "cmake",
+            "command": "cmake",
+            "args": [
+                "${workspaceFolder}"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/build",
+            },
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "dependsOn": [
+                "clearwindow" // 在task `cmake` 后执行该task
+            ]
+        },
+        {
+            "type": "shell",
+            "label": "build",
+            "command": "make",
+            "args": ["-j4"],
+            "options": {
+                "cwd": "${workspaceFolder}/build",
+            },
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "dependsOn": [
+                "cmake" // 在task `cmake` 后执行该task
+            ]
+        },
+        {
+            "type": "shell",
+            "label": "clearwindow",
+            "command": "clear",
+            "args": [""],
+            "problemMatcher": []
+        },  
+    ],
+    "version": "2.0.0"
+}

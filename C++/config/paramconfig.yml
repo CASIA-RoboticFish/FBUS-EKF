@@ -1,0 +1,57 @@
+
+Vision Param:
+  framewidth: 640
+  frameheight: 480
+  tracking_enable: true
+  underwater_mode_enable: false
+  edge_forbidden_thres: 10 # unit: pixel 
+  # markersize: 0.16 # unit: m
+  # markersize_thres: 0.1 # unit: m
+  # markersize_diff_thres: 0.05 # unit: m
+  # marker_movevel_thres: 2 # unit: m/s
+  # corners_proj_dist_thres: 0.01
+  # markersize: 0.178 # unit: m
+  # markersize_thres: 0.10 # unit: m
+  # markersize_diff_thres: 0.05 # unit: m
+  # marker_movevel_thres: 2 # unit: m/s
+  # corners_proj_dist_thres: 0.02
+  # markersize: 0.28 # unit: m
+  # markersize_thres: 0.10 # unit: m
+  # markersize_diff_thres: 0.05 # unit: m
+  # marker_movevel_thres: 2 # unit: m/s
+  # corners_proj_dist_thres: 0.05
+  markersize: 0.48 # unit: m
+  markersize_thres: 0.20 # unit: m
+  markersize_diff_thres: 0.10 # unit: m
+  marker_movevel_thres: 2 # unit: m/s
+  corners_proj_dist_thres: 0.05
+  makrer_dect_dist_thres: 2 # unit: m
+
+Refraction Param:
+  air_refract_ratio: 1.00
+  # water_refract_ratio: 1.00
+  # water_refract_ratio: 1.33
+  water_refract_ratio: 1.32
+  glass_refract_ratio: 1.49
+  # glass_refract_ratio: 2.0
+  air_thickness: 0.002
+  glass_thickness: 0.02
+  normal_vector:
+  - [0]
+  - [0]
+  - [1]
+
+EKF Param:
+  System Noise Covariance:
+    accel_n_cov: 0.001
+    gyro_n_cov: 0.0001
+    accel_b_cov: 0.001
+    gyro_b_cov: 0.0001
+  Measure Noise Covariance:
+    # pos_n_cov: 1.0
+    # quat_n_cov: 100.0
+    pos_n_cov: 0.001
+    quat_n_cov: 0.001
+  Filter Control Param:
+    marker_max_dist: 2 # unit: m
+    marker_switch_thres: 0.5

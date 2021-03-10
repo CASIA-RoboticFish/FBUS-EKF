@@ -1,0 +1,24 @@
+%YAML:1.0
+---
+aruco-dictionary: ALL_DICTS
+aruco-detectMode: DM_NORMAL
+aruco-cornerRefinementM: CORNER_SUBPIX # CORNER_SUBPIX, CORNER_LINES, CORNER_NONE
+aruco-thresMethod: THRES_ADAPTIVE
+aruco-maxThreads: 1
+aruco-borderDistThres: 1.4999999664723873e-02
+aruco-lowResMarkerSize: 20
+aruco-minSize: 0.02   # from 0 to 1, 1 means only detect very big marker, 0 means detect any size marker, 0.02 is the common choice
+aruco-minSize_pix: -1
+aruco-enclosedMarker: 0
+aruco-NAttemptsAutoThresFix: 3
+aruco-AdaptiveThresWindowSize: -1
+aruco-ThresHold: 7
+aruco-AdaptiveThresWindowSize_range: 0
+aruco-markerWarpPixSize: 5
+aruco-autoSize: 0
+aruco-ts: 2.5000000000000000e-01
+aruco-pyrfactor: 2.
+aruco-error_correction_rate: 0.
+aruco-trackingMinDetections: 0
+aruco-closingSize: 0
+dcf-detectRate: 10

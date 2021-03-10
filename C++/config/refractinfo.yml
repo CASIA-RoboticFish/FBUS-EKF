@@ -1,0 +1,16 @@
+Refraction Param:
+  air_refract_ratio: 1.00
+  # water_refract_ratio: 1.00
+  # water_refract_ratio: 1.33
+  water_refract_ratio: 1.32
+  glass_refract_ratio: 1.49
+  # glass_refract_ratio: 2.0
+  air_thickness: 0.002
+  glass_thickness: 0.02
+  normal_vector:
+  - [0]
+  - [0]
+  - [1]
+
+
+  

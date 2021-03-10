@@ -1,0 +1,11 @@
+Covariance:
+  System Noise Covariance:
+    accel_n_cov: 0.001
+    gyro_n_cov: 0.0001
+    accel_b_cov: 0.001
+    gyro_b_cov: 0.0001
+  Measure Noise Covariance:
+    # pos_n_cov: 1.0
+    # quat_n_cov: 100.0
+    pos_n_cov: 0.001
+    quat_n_cov: 0.001
