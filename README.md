@@ -1,6 +1,6 @@
 # FBUS-EKF
 
-The FBUS-EKF package is the code implementation of the proposed fiducial-based underwater stereo visual-inertial localization method, which addresses the refraction effect in underwater localization. Specifically, this method detect the artificial marker from images and utilize the refractive camera model to compute the precise marker pose, finally the inertial data is fused with the marker pose to obtain the robust camera pose. The software takes stereo images, IMU data, and known marker map, then generates real-time 6DOF pose estimation of the IMU frame.
+The FBUS-EKF package is the code implementation of the proposed fiducial-based underwater stereo visual-inertial localization method, which addresses the refraction effect in underwater localization. Specifically, this method detects the artificial marker from images and utilize the refractive camera model to compute the precise marker pose, finally the inertial data is fused with the marker pose to obtain the robust camera pose. The software takes stereo images, IMU data, and a known marker map, then generates real-time 6DOF pose estimation of the IMU frame.
 
 The code implementation includes  Matlab and C++ versions. The Matlab code is tested under the platform of Matlab 2017b. The Matlab code only focuses on the fusion of marker pose and inertial data other than the visual processing, which takes in the marker pose and IMU data, and outputs the 6DOF pose estimation of the IMU frame. The C++ version is tested on Ubuntu 18.04, which provides the complete system implementation from visual processing to filter fusion.
 
@@ -10,11 +10,11 @@ The code implementation includes  Matlab and C++ versions. The Matlab code is te
 
 #### Matlab Verison
 
-The core m-file is FBUS-EKF.m in Matlab implementation, just run it on Matlab environment. Besides, the dataset folder contains the data record during land and underwater environment.
+The core m-file is FBUS-EKF.m in Matlab implementation, just run it on the Matlab environment. Besides, the dataset folder contains the data record during land and underwater environment.
 
 #### C++ Verision
 
-At present, this software can only runs based on the sensor suite from Indemind company. The product links is http://indemind.cn/module. A more general version will be put up later.
+At present, this software can only run on the sensor suite from Indemind company. The product link is http://indemind.cn/module. A more general version will be put up later.
 
 ##### Dependencies
 
